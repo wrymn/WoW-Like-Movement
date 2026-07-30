@@ -19,6 +19,16 @@ A Unity proof of concept for WoW-like character locomotion, animation, and camer
 
 Paid plugins, proprietary game assets, extracted data, and local demo content are intentionally excluded. Install licensed dependencies before expecting the project to compile.
 
+## Configure
+
+The editable assets are in [`Assets/Research/WowLocomotion/ScriptableObjects`](Assets/Research/WowLocomotion/ScriptableObjects):
+
+- `WowMovementSettings`: speed, turning, strafing, jumping, landing, animation blending, and debug options.
+- `WowCameraSettings`: distance, field of view, mouse sensitivity, pitch limits, follow, and zoom.
+- `WowCharacterSpawnSettings`: character choice, character prefabs, camera prefab, and spawn behavior.
+
+To switch between Human and Tauren, open `WowCharacterSpawnSettings` and change **Selection → Selected Character**. Assign your own licensed Human, Tauren, and camera prefabs first; the runtime bootstrap spawns the selected prefab.
+
 ## Controls
 
 `W/S` move · `A/D` turn or RMB-strafe · `Q/E` strafe · RMB rotates and aligns facing · LMB+RMB moves forward · `F1` diagnostics · `F2` VSync

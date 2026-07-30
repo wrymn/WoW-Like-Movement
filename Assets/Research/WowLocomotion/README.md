@@ -10,6 +10,12 @@ Research-only Generic-rig locomotion using Animancer Pro `WeightedMaskLayers`. D
 
 Movement is script-driven. Root-motion streams are enabled for weighted masks, but `OnAnimatorMove` discards their movement.
 
+## Tune
+
+- `WowMovementSettings`: movement, facing, jump, landing, blending, and diagnostics.
+- `WowCameraSettings`: framing, sensitivity, pitch, follow, and zoom.
+- `WowCharacterSpawnSettings`: select `HumanMaleHd` or `TaurenMale` and assign both character prefabs plus the camera prefab.
+
 ## Character
 
 ```text
