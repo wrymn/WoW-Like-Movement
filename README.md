@@ -1,51 +1,34 @@
-# WoW-Like Movement — Human-Directed, AI-Assisted Research
+# WoW-Like Movement
 
-> # EDUCATION-ONLY RESEARCH PROTOTYPE
->
-> **This is a human-led research project built with AI assistance. AI was used to write implementation code, but the project was not autonomously or randomly generated. A human spent substantial time directing the work, measuring behavior, validating and fine-tuning values, testing results, finding bugs, correcting the implementation, and iterating until the behavior matched the observations.**
+> **Educational research prototype.** AI wrote implementation code under human direction; the behavior and values were personally measured, tested, debugged, and fine-tuned.
 
-This is a proof of concept for observable, WoW-like character animation, locomotion, and third-person camera behavior in Unity. The implementation is prototype-grade, but the behavior and tuning values were produced through precise measurement, hands-on testing, and repeated human-guided refinement against observations from a retail game client.
+A Unity proof of concept for WoW-like character locomotion, animation, and camera behavior. It is not affiliated with Blizzard Entertainment and does not claim to reproduce the retail client's internal implementation.
 
-This repository is not affiliated with, endorsed by, or derived from source code belonging to Blizzard Entertainment. It does not claim to reproduce the retail client's internal implementation.
+## Included
 
-## What Is Included
+- Movement, camera, setup, and diagnostic scripts.
+- Measured tuning values stored in ScriptableObjects.
+- Generic-rig and Animancer weighted-mask tooling.
 
-- Human-directed, AI-assisted character locomotion and camera scripts.
-- ScriptableObject definitions and measured tuning values.
-- Editor helpers for configuring a compatible local test character.
-- Runtime diagnostics used while comparing observed behavior.
-
-## What Is Deliberately Excluded
-
-No proprietary game models, textures, animations, extracted data, paid Unity assets, or local demo scenes are distributed here. An education-only label would not make redistribution of those files legal.
-
-The local prototype used:
+## Requirements
 
 - Unity `6000.3.10f1`.
 - Animancer Pro 8.x or newer.
 - Odin Inspector.
-- A Generic-rigged character and animation clips supplied separately by the user.
+- Your own legally obtained Generic character and animation clips.
 
-Install licensed dependencies from their official sources and provide your own legal test assets. The repository may not compile until those dependencies are present.
+Paid plugins, proprietary game assets, extracted data, and local demo content are intentionally excluded. Install licensed dependencies before expecting the project to compile.
 
 ## Controls
 
-- `W` / `S`: forward and backward.
-- `A` / `D`: turn, or strafe while holding RMB.
-- `Q` / `E`: strafe.
-- RMB: rotate camera and align character facing.
-- LMB + RMB: move forward when enabled.
-- `F1`: toggle the runtime diagnostic overlay.
-- `F2`: toggle VSync.
+`W/S` move · `A/D` turn or RMB-strafe · `Q/E` strafe · RMB rotates and aligns facing · LMB+RMB moves forward · `F1` diagnostics · `F2` VSync
 
-## Project Layout
+## Code
 
-- [`Assets/Research/WowLocomotion/Scripts`](Assets/Research/WowLocomotion/Scripts): runtime and editor code.
-- [`Assets/Research/WowLocomotion/ScriptableObjects`](Assets/Research/WowLocomotion/ScriptableObjects): publishable tuning assets.
-- [`Assets/Research/WowLocomotion/README.md`](Assets/Research/WowLocomotion/README.md): setup details and acceptance checks.
+- [`Scripts`](Assets/Research/WowLocomotion/Scripts)
+- [`Measured settings`](Assets/Research/WowLocomotion/ScriptableObjects)
+- [`Setup guide`](Assets/Research/WowLocomotion/README.md)
 
-## Quality Warning
+The measured behavior is the useful result. The implementation is prototype-quality and should be rewritten before production use.
 
-Treat this as carefully tested research data wrapped in prototype code. The values were measured, checked, and adjusted through repeated hands-on testing rather than guessed by AI. The implementation can still contain duplication, awkward naming, poor boundaries, and AI-assisted design mistakes, so production use should begin with a deliberate rewrite of the parts you actually need.
-
-World of Warcraft and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc. All other trademarks belong to their respective owners.
+World of Warcraft and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc.
