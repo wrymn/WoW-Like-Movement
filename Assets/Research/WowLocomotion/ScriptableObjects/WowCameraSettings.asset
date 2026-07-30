@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89177c8ff573a49de8a3e2514dad4dfd, type: 3}
+  m_Name: WowCameraSettings
+  m_EditorClassIdentifier: Assembly-CSharp::WowLocomotionResearch.WowCameraSettings
+  followSmoothness: 0
+  cameraDistance: 5
+  fallbackPivotHeight: 1.6
+  pivotOffset: {x: 0, y: 0.1, z: 0}
+  fieldOfView: 58
+  cameraRotation: {x: 22, y: 0, z: 0}
+  minCameraDistance: 0.3
+  maxCameraDistance: 12
+  zoomMetersPerScrollPoint: 0.16
+  yawDegreesPerPoint: 0.125
+  pitchDegreesPerPoint: 0.0625
+  cameraSpeedMultiplier: 4.5247445
+  pitchLimits: {x: -20, y: 89}
+  zoomSmoothTime: 0.1
+  leftMouseLookEnabled: 1
+  yawFollowDegreesPerSecond: 120
+  yawFollowSmoothTime: 0.12
+  yawFollowMovementThreshold: 0.02
+  lockCursorOnRotate: 1
+  cursorCaptureWarmupFrames: 2

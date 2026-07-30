@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1ebd0c3650c1415c84bd906eca322b1, type: 3}
+  m_Name: WowMovementSettings
+  m_EditorClassIdentifier: Assembly-CSharp::WowLocomotionResearch.WowMovementSettings
+  useCharacterController: 1
+  characterControllerSkinWidth: 0.025
+  characterControllerMinMoveDistance: 0
+  useScriptDrivenMotion: 1
+  rightMouseHeldControlsFacing: 1
+  alwaysStrafeAD: 0
+  normalizeDiagonalInput: 1
+  leftAndRightMouseMoveForward: 1
+  rmbDelayedRootFacing: 1
+  rmbLookHeadMaxYawDegrees: 60
+  rmbLookUpperBodyMaxYawDegrees: 40
+  rmbLookRootTurnStartYawDegrees: 90
+  rmbHeldRootTurnDegreesPerSecond: 45
+  rmbReleaseRootTurnDegreesPerSecond: 150
+  rmbLookTwistSmoothTime: 0.06
+  slowTimeScale: 0.05
+  runSpeed: 5
+  walkSpeed: 2.5
+  backwardSpeedMultiplier: 0.65
+  forwardRunAnimationSpeedMultiplier: 1
+  backwardAnimationSpeedMultiplier: 1.8
+  rmbStrafeVisualYawDegrees: 90
+  locomotionDecisionLogs: 0
+  landingDiagnosticLogs: 0
+  rotationDiagnosticLogs: 0
+  strafeSpeedMultiplier: 1
+  standingJumpAirInputSpeedMultiplier: 0.35
+  standingJumpAirFacing: 1
+  standingJumpAirRootTurnDegreesPerSecond: 360
+  standingJumpLandingRootCatchUpDegreesPerSecond: 250
+  keyboardTurnDegreesPerSecond: 120
+  gravity: -25
+  groundedStickVelocity: -2
+  jumpHeight: 1.35
+  jumpAnimationFadeDuration: 0.08
+  jumpLandingDuration: 1
+  movingJumpLandingDuration: 0.12
+  jumpLandingExitNormalizedTime: 0.92
+  movingJumpLandingExitNormalizedTime: 0.38
+  jumpLandingUpperBodyDuration: 0.6
+  movingJumpLandingUpperBodyDuration: 0.75
+  jumpLandingUpperBodyExitNormalizedTime: 0.92
+  movingJumpLandingUpperBodyExitNormalizedTime: 0.85
+  jumpLandingUpperBodyFadeOutDuration: 0.15
+  movingJumpLandingUpperBodyFadeOutDuration: 0.3
+  landingUpperBodyContinuesDuringFade: 1
+  landingUpperBodyFadeEndNormalizedTime: 0.98
+  modelYawOffsetDegrees: 0
+  strafeAnimationMode: 1
+  visualMovementYawSmoothTime: 0.06
+  useStrafeClipsForInPlaceTurn: 1
+  inPlaceTurnFullSpeedDegreesPerSecond: 120
+  inPlaceTurnMinSpeedDegreesPerSecond: 5
+  locomotionFadeDuration: 0.1
+  upperBodyFadeInDuration: 0.1
+  upperBodyFadeOutDuration: 0.15
+  mixerParameterSmoothTime: 0.08
+  synchronizeLocomotionChildren: 1
+  synchronizeIdle: 0
+  fullBodyActionsWhenStationary: 1
+  stationaryActionThreshold: 0.05

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687fd2112afd4450eb78ea92e2465aff, type: 3}
+  m_Name: WowCharacterSpawnSettings
+  m_EditorClassIdentifier: Assembly-CSharp::WowLocomotionResearch.WowCharacterSpawnSettings
+  selectedCharacter: 1
+  humanMaleHdPrefab: {fileID: 8273376566933833295, guid: 7ab7619f74a44456c93963d7435a6db7, type: 3}
+  taurenMalePrefab: {fileID: 6538933299618181645, guid: ecc62700e20d9400ba333b599bbbfdf3, type: 3}
+  cameraRigPrefab: {fileID: 7836108762388328453, guid: a7746e0eb383a4137aac52bc3e9b269c, type: 3}
+  spawnPointName: Spawn Point
+  removeExistingSceneInstances: 1

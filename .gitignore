@@ -1,0 +1,98 @@
+# Unity-generated folders.
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.log
+*.blend1
+*.blend1.meta
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/ProfilerCaptures/
+
+# IDE and editor files.
+/.idea/
+/.vs/
+/.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
+
+# OS and crash files.
+.DS_Store
+sysinfo.txt
+mono_crash.*
+
+# Generated builds and test data.
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+crashlytics-build.properties
+InitTestScene*.unity*
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/Unity.VisualScripting.Generated/
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Third-party packages must be installed from their official sources.
+/Assets/Plugins/
+/Assets/Plugins.meta
+/Packages/com.kybernetik.animancer/
+/Packages/com.cziberpv.unity-bridge/
+/Assets/Animancer Settings.asset
+/Assets/Animancer Settings.asset.meta
+/Assets/Settings/Resources/
+/Assets/Settings/Resources.meta
+
+# Proprietary research inputs and local demo content are not redistributable.
+/Assets/Model/
+/Assets/Model.meta
+/Assets/Textures/
+/Assets/Textures.meta
+/Assets/Prefabs/
+/Assets/Prefabs.meta
+/Assets/Scenes/
+/Assets/Scenes.meta
+/Assets/New Terrain.asset
+/Assets/New Terrain.asset.meta
+/Assets/HumanCharacter.prefab
+/Assets/HumanCharacter.prefab.meta
+/Assets/TaurenCharacter.prefab
+/Assets/TaurenCharacter.prefab.meta
+/Assets/Research/WowLocomotion/Scenes/
+/Assets/Research/WowLocomotion/Scenes.meta
+/Assets/Research/WowLocomotion/ScriptableObjects/RootBoundClips/
+/Assets/Research/WowLocomotion/ScriptableObjects/RootBoundClips.meta
+/Assets/Research/WowLocomotion/ScriptableObjects/HumanMale*
+/Assets/Research/WowLocomotion/ScriptableObjects/TaurenMale*
+
+# Unity's starter tutorial content is unrelated to the prototype.
+/Assets/Readme.asset
+/Assets/Readme.asset.meta
+/Assets/TutorialInfo/
+/Assets/TutorialInfo.meta
